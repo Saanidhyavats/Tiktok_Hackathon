@@ -18,9 +18,9 @@ For Users:
 Local Diversity Recommendation System: Users can create a Friends Network and discover diverse music from their friends' playlists. The system recommends music from genres the user has either "never heard" or "least heard," encouraging exploration beyond their usual interests. This recommendation system uses collaborative filtering with advanced algorithm, suggesting the top four highest-rated predicted songs from different genres listened to by friends. Recommendation system will orient itself according to the user behavior. (The idea behind suggesting diverse song from a friends playlist is that user will more likely listen to that music)
 
 ### Tools and Technologies
-Tools: Google Colaboratory, VSCode
-Libraries/Modules: Sqlite3, Pandas, Numpy, Plotly, Random
-Frameworks: Flask
+Tools: Google Colaboratory, VSCode <br>
+Libraries/Modules: Sqlite3, Pandas, Numpy, Plotly, Random <br>
+Frameworks: Flask <br>
 Web Technologies: HTML, CSS, Python
 
 ### Running the Scripts
