@@ -1,0 +1,59 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo-container {
+    text-align: center;
+    margin: 20px auto;
+    width: 120px; /* Adjusted for better fit */
+}
+
+#logo {
+    width: 100%;
+}
+
+h1 {
+    color: #FF0050; /* TikTok pink */
+    font-size: 2.5em; /* Slightly larger for emphasis */
+    margin-top: 10px;
+}
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #FF0050; /* TikTok pink */
+    border-radius: 10px;
+    max-width: 320px; /* Slightly wider for better fit */
+    background-color: #1C1C1C; /* Dark gray background */
+}
+
+.option {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #FF0050; /* TikTok pink */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    color: #FFFFFF; /* White text */
+}
+
+.option:hover {
+    background-color: #FF4081; /* Slightly lighter pink for hover effect */
+    transform: scale(1.05);
+}
+
+.option:active {
+    background-color: #C6005A; /* Darker pink for active effect */
+}
+
+input[type="hidden"] {
+    display: none;
+}
