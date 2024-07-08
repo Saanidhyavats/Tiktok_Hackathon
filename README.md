@@ -1,8 +1,10 @@
-### Tiktok_Hackathon
+# Music Discovery
+
+## MUSE
 Problem Statement
 Our goal is to enhance artists' visibility and diversify music streaming options for users.
 
-# Solution
+### Solution
 For Artists:
 
 Song Analytics Platform: Artists can enter a Track ID for analysis, revealing how many users have listened to varying percentages (10%, 20%, ..., 100%) of their song and the frequency of listens. This platform offers options for Country, TrackID, and Percentage/Frequency, with TrackID being mandatory.
@@ -15,13 +17,13 @@ For Users:
 
 Local Diversity Recommendation System: Users can create a Friends Network and discover diverse music from their friends' playlists. The system recommends music from genres the user has either "never heard" or "least heard," encouraging exploration beyond their usual interests. This recommendation system uses collaborative filtering with advanced algorithm, suggesting the top four highest-rated predicted songs from different genres listened to by friends. Recommendation system will orient itself according to the user behavior. (The idea behind suggesting diverse song from a friends playlist is that user will more likely listen to that music)
 
-# Tools and Technologies
+### Tools and Technologies
 Tools: Google Colaboratory, VSCode
 Libraries/Modules: Sqlite3, Pandas, Numpy, Plotly, Random
 Frameworks: Flask
 Web Technologies: HTML, CSS, Python
 
-# Running the Scripts
+### Running the Scripts
 For the user-side script, download the tiktok_custom directory and run:
 python app.py
 For the artist-side script, download the tiktok_artist directory and run:
