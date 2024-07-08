@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Options Form</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+<body>
+    <div id="logo-container">
+        <img id="logo" src="./static/tiktok_logo.png" alt="TikTok Logo">
+    </div>
+    <h1>Recommended Music</h1>
+    <form id="options-form" action="/submit" method="post">
+        {% for option in options %}
+        <div class="option" onclick="submitOption('{{ option }}')">
+            {{ option }}
+        </div>
+        {% endfor %}
+        <input type="hidden" name="option" id="selected-option">
+    </form>
+
+    <script>
+        function submitOption(optionValue) {
+            document.getElementById('selected-option').value = optionValue;
+            document.getElementById('options-form').submit();
+        }
+    </script>
+</body>
+</html>
