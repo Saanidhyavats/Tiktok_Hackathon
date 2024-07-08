@@ -25,18 +25,18 @@ Web Technologies: HTML, CSS, Python
 
 ### Running the Scripts
 For the user-side script, download the tiktok_custom directory and run:
+```sh
 python app.py
+```
 For the artist-side script, download the tiktok_artist directory and run:
+```sh
 python flask_backend.py
+```
 
-
-
-
-
-# Future Directions
+### Future Directions
 Artist Dashboard Enhancements: Adding analytics like "User Base Interests" to show current genres and tracks favored by the artist's audience, guiding artists in their creative decisions.
 Local Diversity Enhancements: Incorporating more features like artist names, spectral features, and language for user-side diversity recommendations.
 
-# Closing Statement
+### Closing Statement
 Participating in this hackathon has been a remarkable experience. Initially, we doubted our ability to complete such a challenging project, but the past few days have demonstrated our potential to turn ideas into reality. We look forward to contributing more in the future and eagerly await similar challenges from TikTok.
 
