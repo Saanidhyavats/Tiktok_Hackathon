@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        form {
+            background-color: #1c1c1c;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        select, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        select {
+            background-color: #2b2b2b;
+            color: #ffffff;
+        }
+
+        button {
+            background-color: #fe2c55;
+            color: #ffffff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #d02746;
+        }
+
+        button:active {
+            background-color: #a91e36;
+        }
+
+        h1 {
+            color: #25f4ee;
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        nav a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body id="body">
+    <nav>
+        <a class="active" href="/">Home</a>
+        <a href="/potential_influencer_collaborator">Potential Influencer Collaborator</a>
+    </nav>
+
+    <form action="/tiktok_hackathon" id="freq" method="POST">
+        <label for="frequency">Frequency</label>
+        <select name="frequency" id="frequency">
+            <option value="">None</option>
+            <option value="f10">f10</option>
+            <option value="f20">f20</option>
+            <option value="f30">f30</option>
+            <option value="f40">f40</option>
+            <option value="f50">f50</option>
+            <option value="f60">f60</option>
+            <option value="f70">f70</option>
+            <option value="f80">f80</option>
+            <option value="f90">f90</option>
+            <option value="f100">f100</option>
+        </select>
+        <label for="track_id">Track_ID</label>
+        <select name="track_id" id="track_id">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <label for="programmmingLang">Country</label>
+        <select name="programmmingLang" id="programmmingLang">
+            <option value="">None</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+            <option value="India">India</option>
+        </select>
+        <button id="myBtn2" type="submit" value="submit">Submit</button>        
+    </form>
+    
+</body>
+</html>
